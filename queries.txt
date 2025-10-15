@@ -1,0 +1,11 @@
+1.  db.Orders.find({order_status:"shipped"})
+
+2.db.Orders.updateOne({order_id:1},{$set:{total_amount:70000}})
+
+3. db.Orders.deleteOne({order_id:4})
+
+4. db.Orders.find({customer_name: "Alice Johnson"})
+
+5. db.Orders.updateOne({order_id:2},{$set:{order_status:"delivered"}})
+
+6. db.Orders.find({total_amount:{$gte:15000}})
